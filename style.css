@@ -1,1 +1,42 @@
+/* Styling for Google link */
+#google {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+/* Footer styling */
+.home-footer {
+    color: bisque;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid white;
+}
+
+/* Body styling */
+body {
+    background-image: url('../images-cute.jpg'); /* Location of your image */
+    background-repeat: no-repeat; /* Prevents image repeat */
+    background-size: cover; /* Scale the image to cover the entire element */
+    background-position: center; /* Center the image */
+    font-family: Arial, sans-serif; /* Different font */
+}
+
+/* Div styling */
+div {
+    border: 3px solid black;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adds a slight background color */
+}
+
+/* Image styling */
+img {
+    margin: 20px 15px 5px 10px;
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 5px 5px 10px gray; /* Adds shadow effect */
+    width: 200px; /* Adjust image width */
+    height: auto;
+}
